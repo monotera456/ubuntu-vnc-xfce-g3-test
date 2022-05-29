@@ -12,9 +12,9 @@ services:
       #- SYS_ADMIN    # forbidden
       #- SYS_CHROOT   # forbidden
       #- CHOWN        # forbidden
-      #- SETUID       # forbidden
-      #- SETPCAP      # allowed
+      - SETPCAP      # allowed
+      - SETUID       # forbidden
       #- SETFCAP      # forbidden
-      - SETGID
+      #- SETGID       # forbidden
     #user: 0
     
