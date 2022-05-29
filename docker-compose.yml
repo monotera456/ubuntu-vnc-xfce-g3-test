@@ -3,6 +3,8 @@ version: '3'
 services:
   ubuntu:
     image: accetto/ubuntu-vnc-xfce-g3:latest
+    environment:
+      - NOVNC_HEARTBEAT=15
     ports:
       - 6901:6901
     user: 0
