@@ -16,9 +16,9 @@ services:
       #- DAC_OVERRIDE       # capability may not be added
       #- FOWNER             # capability may not be added
       #- FSETID             # capability may not be added
-      - KILL               #
+      #- KILL               # capability may not be added
       #- MKNOD              # capability may not be added
-      #- NET_BIND_SERVICE   #
+      - NET_BIND_SERVICE   #
       #- NET_RAW            #
       #- SETFCAP            # capability may not be added
       #- SETGID             # capability may not be added
