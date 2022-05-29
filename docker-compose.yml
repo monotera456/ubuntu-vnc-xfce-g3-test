@@ -7,4 +7,4 @@ services:
       - NOVNC_HEARTBEAT=5
     ports:
       - 6901:6901
-    #user: 0
+    user: 1001
