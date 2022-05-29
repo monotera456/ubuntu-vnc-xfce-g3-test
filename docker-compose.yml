@@ -4,7 +4,7 @@ services:
   ubuntu:
     image: accetto/ubuntu-vnc-xfce-g3:latest
     environment:
-      - NOVNC_HEARTBEAT=15
+      - NOVNC_HEARTBEAT=5
     ports:
       - 6901:6901
     #user: 0
