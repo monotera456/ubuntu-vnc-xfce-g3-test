@@ -10,7 +10,7 @@ services:
     #cap_add:
       #- ALL          # capability may not be added
       #- SYS_ADMIN    # capability may not be added
-    #cap_add:
+    cap_add:
       #- AUDIT_WRITE        # capability may not be added
       #- CHOWN              # capability may not be added
       #- DAC_OVERRIDE       # capability may not be added
