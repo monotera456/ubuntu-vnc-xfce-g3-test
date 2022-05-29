@@ -10,6 +10,7 @@ services:
     cap_add:
       #- ALL
       #- SYS_ADMIN
-      - SYS_CHROOT
+      #- SYS_CHROOT
+      - CHOWN
     #user: 0
     
