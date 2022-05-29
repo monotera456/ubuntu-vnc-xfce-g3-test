@@ -9,6 +9,7 @@ services:
       - 6901:6901
     cap_add:
       #- ALL          # capability may not be added
+      - AUDIT_WRITE
       #- SYS_ADMIN    # capability may not be added
       #- SYS_CHROOT   # capability may not be added
       #- CHOWN        # capability may not be added
@@ -19,6 +20,6 @@ services:
       #- FOWNER       # capability may not be added
       #- DAC_OVERRIDE # capability may not be added
       #- FSETID       # capability may not be added
-      - MKNOD
+      #- MKNOD        # capability may not be added
     #user: 0
     
