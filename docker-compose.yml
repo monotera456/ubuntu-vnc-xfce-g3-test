@@ -17,6 +17,7 @@ services:
       #- SETFCAP      # capability may not be added
       #- SETGID       # capability may not be added
       #- FOWNER       # capability may not be added
-      - DAC_OVERRIDE
+      #- DAC_OVERRIDE # capability may not be added
+      - FSETID
     #user: 0
     
