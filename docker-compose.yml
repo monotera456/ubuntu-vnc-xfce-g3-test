@@ -8,6 +8,6 @@ services:
     ports:
       - 6901:6901
     cap_add:
-      - ALL
+      - SYS_ADMIN
     #user: 0
     
