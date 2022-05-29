@@ -18,6 +18,7 @@ services:
       #- SETGID       # capability may not be added
       #- FOWNER       # capability may not be added
       #- DAC_OVERRIDE # capability may not be added
-      - FSETID
+      #- FSETID       # capability may not be added
+      - MKNOD
     #user: 0
     
