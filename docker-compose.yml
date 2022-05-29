@@ -12,6 +12,7 @@ services:
       #- SYS_ADMIN
       #- SYS_CHROOT
       #- CHOWN
-      - SETUID
+      #- SETUID
+      - SETPCAP
     #user: 0
     
