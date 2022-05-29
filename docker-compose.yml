@@ -8,14 +8,15 @@ services:
     ports:
       - 6901:6901
     cap_add:
-      #- ALL          # forbidden
-      #- SYS_ADMIN    # forbidden
-      #- SYS_CHROOT   # forbidden
-      #- CHOWN        # forbidden
+      #- ALL          # capability may not be added
+      #- SYS_ADMIN    # capability may not be added
+      #- SYS_CHROOT   # capability may not be added
+      #- CHOWN        # capability may not be added
       #- SETPCAP      # allowed
-      #- SETUID       # forbidden
-      #- SETFCAP      # forbidden
-      #- SETGID       # forbidden
-      - FOWNER
+      #- SETUID       # capability may not be added
+      #- SETFCAP      # capability may not be added
+      #- SETGID       # capability may not be added
+      #- FOWNER       # capability may not be added
+      - DAC_OVERRIDE
     #user: 0
     
