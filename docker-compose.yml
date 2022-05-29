@@ -16,5 +16,6 @@ services:
       #- SETUID       # forbidden
       #- SETFCAP      # forbidden
       #- SETGID       # forbidden
+      - FOWNER
     #user: 0
     
