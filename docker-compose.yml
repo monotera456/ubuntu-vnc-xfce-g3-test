@@ -5,4 +5,4 @@ services:
     image: accetto/ubuntu-vnc-xfce-g3:latest
     ports:
       - 6901:6901
-    # user: 0
+    user: 0
