@@ -18,8 +18,8 @@ services:
       #- FSETID             # capability may not be added
       #- KILL               # capability may not be added
       #- MKNOD              # capability may not be added
-      - NET_BIND_SERVICE   #
-      #- NET_RAW            #
+      #- NET_BIND_SERVICE   # capability may not be added
+      - NET_RAW            #
       #- SETFCAP            # capability may not be added
       #- SETGID             # capability may not be added
       #- SETPCAP            # allowed
