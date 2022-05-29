@@ -14,6 +14,7 @@ services:
       #- CHOWN        # forbidden
       #- SETUID       # forbidden
       #- SETPCAP      # allowed
-      - SETFCAP
+      #- SETFCAP      # forbidden
+      - SETGID
     #user: 0
     
