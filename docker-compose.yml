@@ -11,6 +11,7 @@ services:
       #- ALL
       #- SYS_ADMIN
       #- SYS_CHROOT
-      - CHOWN
+      #- CHOWN
+      - SETUID
     #user: 0
     
