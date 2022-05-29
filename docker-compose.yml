@@ -7,13 +7,13 @@ services:
       - NOVNC_HEARTBEAT=5
     ports:
       - 6901:6901
-    cap_add:
+    #cap_add:
       #- ALL          # forbidden
       #- SYS_ADMIN    # forbidden
       #- SYS_CHROOT   # forbidden
       #- CHOWN        # forbidden
-      - SETPCAP      # allowed
-      - SETUID       # forbidden
+      #- SETPCAP      # allowed
+      #- SETUID       # forbidden
       #- SETFCAP      # forbidden
       #- SETGID       # forbidden
     #user: 0
